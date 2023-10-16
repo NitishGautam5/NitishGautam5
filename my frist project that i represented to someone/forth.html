@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        .box
+        {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 230px;
+        }
+        .dis
+        {
+            font-size: 50px;
+            color:wheat;
+           
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -190px;
+        }
+    </style>
+</head>
+<body>
+    <div class="big"><div class="box">
+        <img src="face.gif" alt=""></div>
+        <p class="dis">PLEASE FOCUS YOUR EYE IN CAMERA</p>
+    </div>
+    
+</body>
+<script>
+   
+    function redirectToPage() {
+        setTimeout(function () {
+          
+            window.location.href = 'five.html';
+        }, 7000); // 5000 milliseconds = 5 seconds
+    }
+
+    // Call the function when the page loads
+    redirectToPage();
+</script>
+
+</html>

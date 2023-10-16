@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthcare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="nav">
+        <div class="box" id="nt"><img src="ht.png" alt="" class="logo"></img></div>
+        <div class="box" id="home"><button class="bt">HOME</button></div>
+        <div class="box" id="contact"><button class="bt">ABOUT</button></div>
+        <div class="box" id="more"><button class="bt">HELPLINE</button></div>
+    </div>
+  
+    <img src="bg.jpg" alt="" class="bg"></img>
+    <p class="tex">Helthcare</p>
+    <div class="age">SELECT YOUR AGE</div>
+   <div id="age">
+    <div class="gruph"><button class="button">1-5</button></div>
+    <div class="gruph"><button class="button">5-20</button></div>
+    <div class="gruph"><button class="button">20-50</button></div>
+    <div class="gruph"><button class="button">50-70</button></div>
+    <div class="gruph"><button class="button">70-...</button></div>
+   </div>
+   <button class="next" id="fest">NEXT</button>
+    
+   
+</body>
+<script>
+    prompt("Enter Your Name")
+    
+const fest = document.getElementById('fest');
+ 
+fest.addEventListener('click', function () {
+
+    window.location.href = 'second.html';
+});
+let a=document.querySelectorAll(".button")
+a.addEventListener("click",function(){
+ 
+        a.style.backgroundColor="yellow"
+       
+    })
+</script>
+</html>

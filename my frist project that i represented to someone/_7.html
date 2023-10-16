@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgb(20, 165, 201);
+        }
+        img
+        {
+            height: 60%;
+            width: 60%;
+            position: relative;
+            left: 230px;
+            bottom: -30px;
+        }
+        .BOX
+        {
+            position: relative;
+            top:-230px;
+            left: 470px;
+            
+        }
+        .pe
+        {
+            font-size: 20px;
+        }
+       button
+{
+    background-color: #4adccd8a;
+    color: #156498;
+    border-color: #156498;
+    border-radius: 20%;
+    width: 300px;
+    font-size: 30px;
+}
+button:hover
+{
+    color: #d6e0e7;
+    background-color: rgba(122, 35, 160, 0.638);
+}
+.a
+{
+    position: relative;
+    top: -400px;
+}
+.b
+{
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+    </style>
+</head>
+<body>
+   
+         <img src="7.jpg" alt="">
+         <div class="BOX">
+             <p class="pe" >FOR CONTACT TO DOCTOR</p>
+             <P class="pe">CLICK A</P>
+             <P class="pe">TO CONTACT ASHA WORKER </P>
+             <P class="pe">CLICK B</P>
+         </div>
+
+        <button class="a" id="fest">A</button>
+        <button class="b" id="sest">B</button>
+        
+  
+   
+</body>
+
+   <script>
+    const fest = document.getElementById('fest');
+
+fest.addEventListener('click', function () {
+
+    window.location.href = '_8.html';
+});
+    
+const sest = document.getElementById('sest');
+
+sest.addEventListener('click', function () {
+
+    window.location.href = '_9.html';
+});
+
+   </script>
+    
+
+
+</html>

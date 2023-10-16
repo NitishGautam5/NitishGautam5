@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+ body
+    {
+background-image: url("fing.avif");
+width: 100%;
+height: 100%;
+
+    }
+.whole
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box
+{
+    background-color: rgba(47, 129, 201, 0.618);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:-250px;
+    left:-35%; 
+}
+.print
+{
+    position:relative;
+    left:78%;
+    bottom: -70px;
+}
+</style>
+
+<body>
+    <div class="whole">
+        <div class="box">PLESE PUT YOUR THUMB  SCANNER</div>
+    </div>
+    
+    <img src="200.webp" alt="" class="print">
+
+</body>
+<script>
+   
+    function redirectToPage() {
+        setTimeout(function () {
+          
+            window.location.href = 'third.html';
+        }, 5000); // 5000 milliseconds = 5 seconds
+    }
+
+    // Call the function when the page loads
+    redirectToPage();
+</script>
+</html>
